@@ -1,0 +1,49 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 30px 0;
+}
+
+/* Define the style of heading */
+h1{
+  /* Set font family to monospace */
+  font-family: monospace;
+
+  /* Set font size to 28 pixel */
+  font-size: 28px;
+
+  /* Set font to bold */
+	font-weight: bold;
+
+  /* Set color as black */
+  color: black;
+
+  /* Set shadow in white and grey */
+  text-shadow: 0 2px white, 0 3px grey;
+}
+
+img{
+  padding: 20px;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+}
